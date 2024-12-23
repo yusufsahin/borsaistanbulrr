@@ -1,0 +1,1 @@
+export const greet3=(name)=>`Hello ${name}`;
