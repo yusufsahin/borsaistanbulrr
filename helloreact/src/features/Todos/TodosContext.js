@@ -42,8 +42,33 @@ export const TodosProvider = ({ children }) => {
     }
   };
 
+  const updateTodo = async (id, updatedData) => {
+    try {
+      await axios.put(
+        `https://jsonplaceholder.typicode.com/todos/${id}`,
+        updatedData
+      );
+      setTodos((prevTodos) =>
+        prevTodos.map((todo) =>
+          todo.id === id ? { ...todo, ...updatedData } : todo
+        )
+      );
+    } catch (error) {
+      console.error("Error updating todo:", error);
+    }
+  };
+
+  const deleteTodo = async (id) => {
+    try {
+      await axios.delete(`https://jsonplaceholder.typicode.com/todos/${id}`);
+      setTodos((prevTodos) => prevTodos.filter((todo) => todo.id !== id));
+    } catch (error) {
+      console.error("Error deleting todo:", error);
+    }
+  };
+
   return (
-    <TodosContext.Provider value={{ todos, loading,addTodo }}>
+    <TodosContext.Provider value={{ todos, loading, addTodo, updateTodo,deleteTodo }}>
       {children}
     </TodosContext.Provider>
   );

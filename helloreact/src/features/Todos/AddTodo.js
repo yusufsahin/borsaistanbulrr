@@ -18,7 +18,7 @@ const AddTodo = () => {
         type="text"
         placeholder="Enter a new todo"
         value={title}
-        onChange={(e) => setTitle(e.target.value)}
+     
       />
       <button type="submit">Add Todo</button>
     </form>
