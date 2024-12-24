@@ -9,9 +9,18 @@ import UserListFC from "./app/UserListFC";
 import { CounterProvider } from "./app/CounterContext";
 import CounterDisplay from "./app/CounterDisplay";
 import CounterControl from "./app/CounterControl";
-const App=()=>{
-
-    return(
+import { TodosProvider } from "./features/Todos/TodosContext";
+import Todos from "./features/Todos/Todos";
+import AddTodo from "./features/Todos/AddTodo";
+const App = () => {
+  return (
+    <TodosProvider>
+      <div style={{ padding: "20px" }}>
+        <AddTodo/>
+        <Todos />
+      </div>
+    </TodosProvider>
+    /*
     <CounterProvider>
         <div>
             <h1>React Manuel Kurulum</h1>
@@ -26,8 +35,8 @@ const App=()=>{
             <CounterDisplay/>
             <CounterControl/>      
         </div>
-    </CounterProvider>
-    );
+    </CounterProvider>*/
+  );
 };
 
 export default App;
