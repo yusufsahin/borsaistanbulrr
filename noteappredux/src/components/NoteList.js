@@ -1,6 +1,6 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchNotes } from "../reduxstore/notes/noteActions";
+import { deleteNote, fetchNotes } from "../reduxstore/notes/noteActions";
 
 const NoteList = () => {
   const dispatch = useDispatch();
@@ -21,6 +21,7 @@ const NoteList = () => {
           <li key={note.id}>
             <h2>{note.title}</h2>
             <p>{note.description}</p>
+            <button onClick={()=>{dispatch(deleteNote(note.id))}}>Delete</button>
           </li>
         ))}
       </ul>
