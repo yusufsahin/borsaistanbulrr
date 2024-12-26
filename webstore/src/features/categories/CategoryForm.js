@@ -53,12 +53,12 @@ const CategoryForm = () => {
   const onSubmit = (data) => {
     if (id) {
       // Dispatch update action
-      dispatch(updateCategory({ id, ...data }));
+      dispatch(updateCategory({ id, ...data })).then(navigate("/"));
     } else {
       // Dispatch create action
-      dispatch(createCategory(data));
+      dispatch(createCategory(data)).then(navigate("/"));
     }
-    navigate("/"); // Navigate back to the category list
+  // Navigate back to the category list
   };
 
   if (loading) {
