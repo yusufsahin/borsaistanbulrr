@@ -36,7 +36,7 @@ const CategoryList = () => {
             <tr key={category.id}>
               <td>{category.id}</td>
               <td>{category.name}</td>
-              <td>{category.status}</td>
+              <td>{category.description}</td>
             </tr>
           ))}
         </tbody>
