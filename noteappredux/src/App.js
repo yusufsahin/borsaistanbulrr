@@ -2,6 +2,7 @@ import React from "react";
 import NoteList from "./components/NoteList";
 import AddNote from "./components/AddNote";
 import { Route, BrowserRouter as Router, Routes,Link } from "react-router";
+import UpdateNote from "./components/UpdateNote";
 const App = () => {
   return (
     <Router>
@@ -17,6 +18,7 @@ const App = () => {
         <Routes>
           <Route path="/" element={<NoteList />} />
           <Route path="/add-note" element={<AddNote />} />
+          <Route path="/update-note/:id" element={<UpdateNote/>}/>
         </Routes>
       </div>
     </Router>
