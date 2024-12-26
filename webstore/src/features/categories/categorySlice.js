@@ -30,10 +30,10 @@ export const createCategory = createAsyncThunk(
 );
 export const updateCategory = createAsyncThunk(
   "categories/updateCategory",
-  async ({ id, updateCategory }, thunkAPI) => {
+  async (updateCategory, thunkAPI) => {
     try {
       const response = await axiosInstance.put(
-        `/categories/${id}`,
+        `/categories/${updateCategory.id}`,
         updateCategory
       );
       return response.data;

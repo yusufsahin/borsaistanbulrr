@@ -1,9 +1,19 @@
 {
   "categories": [
     {
-      "id": 1,
-      "name": "Elektronik",
-      "description": "Elektronik Cihazlar"
+      "id": "3c49",
+      "name": "Beyaz Esya",
+      "description": "Beyaz Esya"
+    },
+    {
+      "id": "87b3",
+      "name": "Elektronik Update",
+      "description": "Elektronik Update"
+    },
+    {
+      "id": "6187",
+      "name": "Cep Telefonu",
+      "description": "Cep Telefonu"
     }
   ]
 }
