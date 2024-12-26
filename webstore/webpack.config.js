@@ -17,8 +17,12 @@ module.exports = {
         use: 'babel-loader',
       },
       {
-        test: /\.css$/,
+        test: /\.css$/i,
         use: ['style-loader', 'css-loader'],
+      },
+      {
+        test: /\.(woff(2)?|eot|ttf|otf|svg|png|jpg|jpeg|gif)$/i, // Handles fonts and images
+        type: 'asset/resource',
       },
     ],
   },

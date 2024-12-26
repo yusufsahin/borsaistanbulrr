@@ -1,9 +1,9 @@
 {
-  "notes": [
+  "categories": [
     {
-      "id": "1",
-      "title": "Note 1",
-      "description": "Note 1 Description"
+      "id": 1,
+      "name": "Elektronik",
+      "description": "Elektronik Cihazlar"
     }
   ]
 }

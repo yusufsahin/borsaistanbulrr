@@ -1,12 +1,15 @@
-import React from 'react'
-import Counter from './features/counter/Counter'
+import React from "react";
+import Counter from "./features/counter/Counter";
+import CategoryList from "./features/categories/CategoryList";
+import 'bootstrap/dist/css/bootstrap.min.css';
 
-const App=()=> {
+
+const App = () => {
   return (
     <div>
-      <Counter/>
+      <CategoryList/>
     </div>
-  )
-}
+  );
+};
 
-export default App
+export default App;
