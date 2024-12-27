@@ -9,6 +9,7 @@ import { Container, Navbar, Nav,Button } from "react-bootstrap";
 import { Link } from "react-router";
 import Main from "./features/dashboard/Main";
 import Cart from "./features/cart/Cart";
+import OrderForm from "./features/orders/OrderForm";
 const App = () => {
   return (
     <Router>
@@ -26,10 +27,10 @@ const App = () => {
               <Nav.Link as={Link} to="/cart">
                 Cart
               </Nav.Link>
-              <Nav.Link as={Link} to="/add-product">
-                Add Product
+              <Nav.Link as={Link} to="/products">
+                Products
               </Nav.Link>
-              <Nav.Link as={Link} to="/category">
+              <Nav.Link as={Link} to="/categories">
                 Category
               </Nav.Link>
             </Nav>
@@ -40,6 +41,8 @@ const App = () => {
         <Routes>
           <Route path="/" element={<Main />} />
           <Route path="/cart" element={<Cart/>}/>
+          <Route path="/order" element={<OrderForm/>}/>
+          <Route path="/products" element={<ProductTable />} />
           <Route path="/add-product" element={<ProductAdd />} />
           <Route path="/edit-product/:id" element={<ProductEdit />} />
           <Route path="/categories" element={<CategoryList />} />
