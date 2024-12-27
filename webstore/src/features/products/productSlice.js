@@ -11,7 +11,7 @@ export const fetchProducts = createAsyncThunk(
 
       // Rastgele 10 ürün seç
       const shuffled = allProducts.sort(() => 0.5 - Math.random());
-      const randomProducts = shuffled.slice(0, 10);
+      const randomProducts = shuffled.slice(0, 20);
 
       return randomProducts;
     } catch (error) {

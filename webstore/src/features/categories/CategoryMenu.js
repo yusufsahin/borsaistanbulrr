@@ -35,7 +35,7 @@ const CategoryMenu = () => {
       <h4>Categories</h4>
       <ListGroup>
         <ListGroup.Item key="all" action active={currentCategory===null} onClick={()=>handleAll()}>
-            All
+            Top 20
         </ListGroup.Item>
         {categories.map((category) => (
           <ListGroup.Item

@@ -8,6 +8,7 @@ import {
 import { Link, useNavigate } from "react-router";
 import { Button, Spinner, Alert, Row, Col, Card } from "react-bootstrap";
 import { fetchCategories } from "../categories/categorySlice";
+import { addToCart } from "../cart/cartSlice";
 
 const  ProductList = () => {
   const dispatch = useDispatch();
@@ -15,7 +16,7 @@ const  ProductList = () => {
 
   const { products, loading, error } = useSelector((state) => state.products);
   const handleAddToCart = (product) => {
-    //dispatch(addToCart(product));
+    dispatch(addToCart(product));
     alert(`${product.name} added to cart.`);
   };
 
