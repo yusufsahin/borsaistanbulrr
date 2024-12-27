@@ -6,6 +6,7 @@ import { useDispatch, useSelector } from "react-redux";
 import { placeOrder } from "./orderSlice";
 import { Button, Form } from "react-bootstrap";
 import { useNavigate } from "react-router";
+import { clearCart } from "../cart/cartSlice";
 
 const schema = yup.object().shape({
   fullName: yup.string().required("Full Name is required"),
@@ -34,6 +35,7 @@ const OrderForm = () => {
     };
 
     await dispatch(placeOrder(order));
+    await dispatch(clearCart());
     navigate("/"); // Sipariş sonrası ana sayfaya yönlendir
   };
 
