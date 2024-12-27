@@ -1,8 +1,8 @@
 import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
-import { fetchCategories, setCurrentCategory } from "./categorySlice";
+import { clearCurrentCategory, fetchCategories, setCurrentCategory } from "./categorySlice";
 import { ListGroup } from "react-bootstrap";
-import { fetchProductsByCategory } from "../products/productSlice";
+import { fetchProducts, fetchProductsByCategory } from "../products/productSlice";
 
 const CategoryMenu = () => {
   const dispatch = useDispatch();
@@ -14,6 +14,10 @@ const CategoryMenu = () => {
     dispatch(fetchCategories());
   }, []);
 
+  const handleAll=()=>{
+    dispatch(fetchProducts());
+    dispatch(clearCurrentCategory());
+  }
   const handleCategory=(category)=>{
     console.log(category);
     dispatch(setCurrentCategory(category));
@@ -30,6 +34,9 @@ const CategoryMenu = () => {
     >
       <h4>Categories</h4>
       <ListGroup>
+        <ListGroup.Item key="all" action active={currentCategory===null} onClick={()=>handleAll()}>
+            All
+        </ListGroup.Item>
         {categories.map((category) => (
           <ListGroup.Item
             key={category.id}
