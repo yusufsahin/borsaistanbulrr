@@ -2,6 +2,7 @@ import React, { useEffect } from "react";
 import { useDispatch, useSelector } from "react-redux";
 import { fetchCategories, setCurrentCategory } from "./categorySlice";
 import { ListGroup } from "react-bootstrap";
+import { fetchProductsByCategory } from "../products/productSlice";
 
 const CategoryMenu = () => {
   const dispatch = useDispatch();
@@ -16,6 +17,7 @@ const CategoryMenu = () => {
   const handleCategory=(category)=>{
     console.log(category);
     dispatch(setCurrentCategory(category));
+   // dispatch(fetchProductsByCategory(category.id))
   }
 
   return (
