@@ -1,0 +1,462 @@
+{
+  "categories": [
+    {
+      "id": "qcMg",
+      "name": "Electronics",
+      "description": "Discover the latest gadgets, devices, and electronics for all your tech needs."
+    },
+    {
+      "id": "TSod",
+      "name": "Fashion",
+      "description": "Stay trendy with a wide selection of clothing, shoes, and accessories for all occasions."
+    },
+    {
+      "id": "Aif2",
+      "name": "Home & Living",
+      "description": "Upgrade your living spaces with stylish furniture, decor, and home essentials."
+    },
+    {
+      "id": "v8nh",
+      "name": "Books",
+      "description": "Explore books from various genres, including fiction, non-fiction, and academic materials."
+    },
+    {
+      "id": "L64r",
+      "name": "Sports & Outdoors",
+      "description": "Gear up for adventure with sports equipment, outdoor essentials, and apparel."
+    },
+    {
+      "id": "uZo9",
+      "name": "Beauty & Health",
+      "description": "Find beauty products, personal care items, and health supplements for your well-being."
+    },
+    {
+      "id": "3V16",
+      "name": "Toys & Games",
+      "description": "Delight kids and adults alike with a wide range of toys, puzzles, and games."
+    },
+    {
+      "id": "9PNR",
+      "name": "Automotive",
+      "description": "Keep your vehicle in top shape with quality parts, accessories, and tools."
+    },
+    {
+      "id": "dTen",
+      "name": "Food & Beverages",
+      "description": "Shop for delicious snacks, beverages, and gourmet foods to satisfy your cravings."
+    },
+    {
+      "id": "F0hK",
+      "name": "Technology",
+      "description": "Stay ahead with the latest in software, gadgets, and tech innovations."
+    }
+  ],
+  "products": [
+    {
+      "id": "mdcR",
+      "name": "Automotive Product 800",
+      "description": "This is a premium Automotive product named Automotive Product 800.",
+      "price": 303.88,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "Xo3M",
+      "name": "Food & Beverages Product 737",
+      "description": "This is a premium Food & Beverages product named Food & Beverages Product 737.",
+      "price": 225.3,
+      "categoryId": "dTen"
+    },
+    {
+      "id": "JRvo",
+      "name": "Sports & Outdoors Product 538",
+      "description": "This is a premium Sports & Outdoors product named Sports & Outdoors Product 538.",
+      "price": 205.55,
+      "categoryId": "L64r"
+    },
+    {
+      "id": "5P5i",
+      "name": "Food & Beverages Product 527",
+      "description": "This is a premium Food & Beverages product named Food & Beverages Product 527.",
+      "price": 723.33,
+      "categoryId": "dTen"
+    },
+    {
+      "id": "8cde",
+      "name": "Automotive Product 583",
+      "description": "This is a premium Automotive product named Automotive Product 583.",
+      "price": 858.72,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "AU5w",
+      "name": "Toys & Games Product 682",
+      "description": "This is a premium Toys & Games product named Toys & Games Product 682.",
+      "price": 600.02,
+      "categoryId": "3V16"
+    },
+    {
+      "id": "26PA",
+      "name": "Automotive Product 505",
+      "description": "This is a premium Automotive product named Automotive Product 505.",
+      "price": 556.17,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "ya7B",
+      "name": "Books Product 891",
+      "description": "This is a premium Books product named Books Product 891.",
+      "price": 685.21,
+      "categoryId": "v8nh"
+    },
+    {
+      "id": "IzUv",
+      "name": "Food & Beverages Product 314",
+      "description": "This is a premium Food & Beverages product named Food & Beverages Product 314.",
+      "price": 240.8,
+      "categoryId": "dTen"
+    },
+    {
+      "id": "Otqj",
+      "name": "Fashion Product 572",
+      "description": "This is a premium Fashion product named Fashion Product 572.",
+      "price": 626.21,
+      "categoryId": "TSod"
+    },
+    {
+      "id": "c98Y",
+      "name": "Sports & Outdoors Product 81",
+      "description": "This is a premium Sports & Outdoors product named Sports & Outdoors Product 81.",
+      "price": 830.64,
+      "categoryId": "L64r"
+    },
+    {
+      "id": "4dkZ",
+      "name": "Sports & Outdoors Product 130",
+      "description": "This is a premium Sports & Outdoors product named Sports & Outdoors Product 130.",
+      "price": 707.65,
+      "categoryId": "L64r"
+    },
+    {
+      "id": "Ej8B",
+      "name": "Technology Product 206",
+      "description": "This is a premium Technology product named Technology Product 206.",
+      "price": 27.55,
+      "categoryId": "F0hK"
+    },
+    {
+      "id": "1Yv1",
+      "name": "Home & Living Product 695",
+      "description": "This is a premium Home & Living product named Home & Living Product 695.",
+      "price": 647.72,
+      "categoryId": "Aif2"
+    },
+    {
+      "id": "TxcA",
+      "name": "Beauty & Health Product 747",
+      "description": "This is a premium Beauty & Health product named Beauty & Health Product 747.",
+      "price": 224.72,
+      "categoryId": "uZo9"
+    },
+    {
+      "id": "v90e",
+      "name": "Fashion Product 607",
+      "description": "This is a premium Fashion product named Fashion Product 607.",
+      "price": 502.66,
+      "categoryId": "TSod"
+    },
+    {
+      "id": "sBfs",
+      "name": "Automotive Product 61",
+      "description": "This is a premium Automotive product named Automotive Product 61.",
+      "price": 632.6,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "UyJm",
+      "name": "Books Product 912",
+      "description": "This is a premium Books product named Books Product 912.",
+      "price": 99.47,
+      "categoryId": "v8nh"
+    },
+    {
+      "id": "4U6Y",
+      "name": "Toys & Games Product 592",
+      "description": "This is a premium Toys & Games product named Toys & Games Product 592.",
+      "price": 163.07,
+      "categoryId": "3V16"
+    },
+    {
+      "id": "qy73",
+      "name": "Home & Living Product 657",
+      "description": "This is a premium Home & Living product named Home & Living Product 657.",
+      "price": 934.89,
+      "categoryId": "Aif2"
+    },
+    {
+      "id": "pltH",
+      "name": "Home & Living Product 828",
+      "description": "This is a premium Home & Living product named Home & Living Product 828.",
+      "price": 453.89,
+      "categoryId": "Aif2"
+    },
+    {
+      "id": "s7j9",
+      "name": "Toys & Games Product 674",
+      "description": "This is a premium Toys & Games product named Toys & Games Product 674.",
+      "price": 201.59,
+      "categoryId": "3V16"
+    },
+    {
+      "id": "GTlj",
+      "name": "Toys & Games Product 646",
+      "description": "This is a premium Toys & Games product named Toys & Games Product 646.",
+      "price": 183.74,
+      "categoryId": "3V16"
+    },
+    {
+      "id": "M3fS",
+      "name": "Toys & Games Product 772",
+      "description": "This is a premium Toys & Games product named Toys & Games Product 772.",
+      "price": 981.84,
+      "categoryId": "3V16"
+    },
+    {
+      "id": "I6WS",
+      "name": "Toys & Games Product 943",
+      "description": "This is a premium Toys & Games product named Toys & Games Product 943.",
+      "price": 309.82,
+      "categoryId": "3V16"
+    },
+    {
+      "id": "i1Fz",
+      "name": "Technology Product 175",
+      "description": "This is a premium Technology product named Technology Product 175.",
+      "price": 253.57,
+      "categoryId": "F0hK"
+    },
+    {
+      "id": "N9NZ",
+      "name": "Home & Living Product 484",
+      "description": "This is a premium Home & Living product named Home & Living Product 484.",
+      "price": 334.24,
+      "categoryId": "Aif2"
+    },
+    {
+      "id": "7HbQ",
+      "name": "Automotive Product 443",
+      "description": "This is a premium Automotive product named Automotive Product 443.",
+      "price": 396.99,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "71UF",
+      "name": "Beauty & Health Product 639",
+      "description": "This is a premium Beauty & Health product named Beauty & Health Product 639.",
+      "price": 610.33,
+      "categoryId": "uZo9"
+    },
+    {
+      "id": "RW6u",
+      "name": "Technology Product 9",
+      "description": "This is a premium Technology product named Technology Product 9.",
+      "price": 923.83,
+      "categoryId": "F0hK"
+    },
+    {
+      "id": "Luxh",
+      "name": "Books Product 868",
+      "description": "This is a premium Books product named Books Product 868.",
+      "price": 547.9,
+      "categoryId": "v8nh"
+    },
+    {
+      "id": "vpru",
+      "name": "Sports & Outdoors Product 643",
+      "description": "This is a premium Sports & Outdoors product named Sports & Outdoors Product 643.",
+      "price": 864.46,
+      "categoryId": "L64r"
+    },
+    {
+      "id": "Y0z2",
+      "name": "Food & Beverages Product 905",
+      "description": "This is a premium Food & Beverages product named Food & Beverages Product 905.",
+      "price": 401.38,
+      "categoryId": "dTen"
+    },
+    {
+      "id": "zI7Y",
+      "name": "Automotive Product 882",
+      "description": "This is a premium Automotive product named Automotive Product 882.",
+      "price": 301.12,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "IcXe",
+      "name": "Food & Beverages Product 944",
+      "description": "This is a premium Food & Beverages product named Food & Beverages Product 944.",
+      "price": 745.34,
+      "categoryId": "dTen"
+    },
+    {
+      "id": "sXDt",
+      "name": "Fashion Product 891",
+      "description": "This is a premium Fashion product named Fashion Product 891.",
+      "price": 708.37,
+      "categoryId": "TSod"
+    },
+    {
+      "id": "lc0G",
+      "name": "Home & Living Product 157",
+      "description": "This is a premium Home & Living product named Home & Living Product 157.",
+      "price": 50.07,
+      "categoryId": "Aif2"
+    },
+    {
+      "id": "ctCY",
+      "name": "Books Product 927",
+      "description": "This is a premium Books product named Books Product 927.",
+      "price": 496.22,
+      "categoryId": "v8nh"
+    },
+    {
+      "id": "PeuK",
+      "name": "Toys & Games Product 834",
+      "description": "This is a premium Toys & Games product named Toys & Games Product 834.",
+      "price": 548.91,
+      "categoryId": "3V16"
+    },
+    {
+      "id": "cHcA",
+      "name": "Automotive Product 722",
+      "description": "This is a premium Automotive product named Automotive Product 722.",
+      "price": 610.5,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "itgO",
+      "name": "Automotive Product 62",
+      "description": "This is a premium Automotive product named Automotive Product 62.",
+      "price": 99.27,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "RGJq",
+      "name": "Automotive Product 492",
+      "description": "This is a premium Automotive product named Automotive Product 492.",
+      "price": 860.4,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "MGPa",
+      "name": "Beauty & Health Product 625",
+      "description": "This is a premium Beauty & Health product named Beauty & Health Product 625.",
+      "price": 389.18,
+      "categoryId": "uZo9"
+    },
+    {
+      "id": "9Yzz",
+      "name": "Books Product 162",
+      "description": "This is a premium Books product named Books Product 162.",
+      "price": 297.09,
+      "categoryId": "v8nh"
+    },
+    {
+      "id": "uRq3",
+      "name": "Technology Product 371",
+      "description": "This is a premium Technology product named Technology Product 371.",
+      "price": 372.88,
+      "categoryId": "F0hK"
+    },
+    {
+      "id": "w3g1",
+      "name": "Fashion Product 578",
+      "description": "This is a premium Fashion product named Fashion Product 578.",
+      "price": 695.48,
+      "categoryId": "TSod"
+    },
+    {
+      "id": "V9Sb",
+      "name": "Electronics Product 742",
+      "description": "This is a premium Electronics product named Electronics Product 742.",
+      "price": 861.29,
+      "categoryId": "qcMg"
+    },
+    {
+      "id": "iSkC",
+      "name": "Automotive Product 198",
+      "description": "This is a premium Automotive product named Automotive Product 198.",
+      "price": 716.26,
+      "categoryId": "9PNR"
+    },
+    {
+      "id": "A1x2",
+      "name": "Fashion Product 145",
+      "description": "This is a premium Fashion product named Fashion Product 145.",
+      "price": 251.7,
+      "categoryId": "TSod"
+    },
+    {
+      "id": "WqNA",
+      "name": "Beauty & Health Product 351",
+      "description": "This is a premium Beauty & Health product named Beauty & Health Product 351.",
+      "price": 113.65,
+      "categoryId": "uZo9"
+    }
+  ],
+  "orders": [
+    {
+      "id": "75f8",
+      "fullName": "John Doe",
+      "address": "ABC Bulv",
+      "phone": "76578885889",
+      "items": [
+        {
+          "id": "pltH",
+          "name": "Home & Living Product 828",
+          "description": "This is a premium Home & Living product named Home & Living Product 828.",
+          "price": 453.89,
+          "categoryId": "Aif2",
+          "quantity": 1,
+          "totalPrice": 453.89
+        },
+        {
+          "id": "qy73",
+          "name": "Home & Living Product 657",
+          "description": "This is a premium Home & Living product named Home & Living Product 657.",
+          "price": 934.89,
+          "categoryId": "Aif2",
+          "quantity": 1,
+          "totalPrice": 934.89
+        }
+      ],
+      "totalAmount": 1388.78
+    },
+    {
+      "id": "be98",
+      "fullName": "Jane Doe",
+      "address": "ABC Bulv",
+      "phone": "858997807",
+      "items": [
+        {
+          "id": "Luxh",
+          "name": "Books Product 868",
+          "description": "This is a premium Books product named Books Product 868.",
+          "price": 547.9,
+          "categoryId": "v8nh",
+          "quantity": 1,
+          "totalPrice": 547.9
+        },
+        {
+          "id": "qy73",
+          "name": "Home & Living Product 657",
+          "description": "This is a premium Home & Living product named Home & Living Product 657.",
+          "price": 934.89,
+          "categoryId": "Aif2",
+          "quantity": 1,
+          "totalPrice": 934.89
+        }
+      ],
+      "totalAmount": 1482.79
+    }
+  ]
+}
