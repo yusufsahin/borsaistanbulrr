@@ -1,4 +1,4 @@
-import { createAsyncThunk, createSlice } from "@reduxjs/toolkit";
+import { createAsyncThunk, createSlice, current } from "@reduxjs/toolkit";
 import axiosInstance from "../../app/lib/axiosInstance";
 
 export const fetchCategories = createAsyncThunk(
@@ -62,8 +62,16 @@ const categorySlice = createSlice({
     categories: [],
     loading: false,
     error: null,
+    currentCategory:null
   },
-  reducers: {},
+  reducers: {reducers: {
+    setCurrentCategory: (state, action) => {
+      state.currentCategory = action.payload; // Seçili ürünü ayarla
+    },
+    clearCurrentCategory: (state) => {
+      state.currentCategory = null; // Seçili ürünü temizle
+    },
+  },},
   extraReducers: (builder) => {
     builder
       .addCase(fetchCategories.pending, (state) => {
@@ -118,5 +126,6 @@ const categorySlice = createSlice({
       });
   },
 });
+export const { setCurrentCategory, clearCurrentCategory } = categorySlice.actions;
 
 export default categorySlice.reducer;
