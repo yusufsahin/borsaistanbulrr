@@ -26,7 +26,7 @@ const CategoryList = () => {
     <>
       <div className="d-flex justify-content-between align-items-center mb-4">
         <h2>Categories</h2>
-        <Link to="/add" className="btn btn-primary">
+        <Link to="/add-category" className="btn btn-primary">
           Add Category
         </Link>
       </div>
@@ -48,7 +48,7 @@ const CategoryList = () => {
               <td>{category.description}</td>
               <td>
                 <Link
-                  to={`/edit/${category.id}`}
+                  to={`/edit-category/${category.id}`}
                   className="btn btn-warning btn-sm me-2"
                 >
                   Edit

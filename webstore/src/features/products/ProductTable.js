@@ -43,7 +43,7 @@ const ProductTable = () => {
     <>
       <div className="justify-content-between mb-4">
         <h2>Products</h2>
-        <Link to="add-product" className="btn btn-primary">
+        <Link to="/add-product" className="btn btn-primary">
           Add Product
         </Link>
         <br></br>
