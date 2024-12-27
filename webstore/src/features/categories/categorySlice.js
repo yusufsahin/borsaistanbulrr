@@ -64,14 +64,14 @@ const categorySlice = createSlice({
     error: null,
     currentCategory:null
   },
-  reducers: {reducers: {
+  reducers: {
     setCurrentCategory: (state, action) => {
       state.currentCategory = action.payload; // Seçili ürünü ayarla
     },
     clearCurrentCategory: (state) => {
       state.currentCategory = null; // Seçili ürünü temizle
     },
-  },},
+  },
   extraReducers: (builder) => {
     builder
       .addCase(fetchCategories.pending, (state) => {
